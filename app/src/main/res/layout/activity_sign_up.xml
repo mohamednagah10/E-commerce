@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="70dp"
+        android:layout_height="22dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="676dp"
+        android:text="Name"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="126dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="612dp"
+        android:text="User Name"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="92dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="568dp"
+        android:text="Password"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="303dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="140dp"
+        android:layout_height="29dp"
+        android:layout_marginBottom="516dp"
+        android:text="Confirm Password"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="263dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="91dp"
+        android:layout_height="31dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="424dp"
+        android:text="Gender"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="77dp"
+        android:layout_height="26dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="312dp"
+        android:text="BirthDate"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="81dp"
+        android:layout_height="34dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="144dp"
+        android:text="Job"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="87dp"
+        android:layout_height="33dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="84dp"
+        android:text="Email"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/cname"
+        android:layout_width="163dp"
+        android:layout_height="43dp"
+        android:layout_marginEnd="220dp"
+        android:layout_marginBottom="652dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Customer'Name"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/Uname"
+        android:layout_width="163dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="600dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="User Name"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.169"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/job"
+        android:layout_width="95dp"
+        android:layout_height="64dp"
+        android:layout_marginEnd="236dp"
+        android:layout_marginBottom="140dp"
+        android:ems="10"
+        android:hint="Job"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="103dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="224dp"
+        android:layout_marginBottom="84dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Email"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <DatePicker
+        android:id="@+id/datePicker1"
+        android:layout_width="243dp"
+        android:layout_height="162dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="360dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        android:datePickerMode="spinner"
+        android:calendarViewShown="false"/>
+
+    <Button
+        android:id="@+id/Reg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="168dp"
+        android:layout_marginBottom="16dp"
+        android:text="Register"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="148dp"
+        android:layout_height="37dp"
+        android:layout_marginBottom="564dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="103dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/Cpassword"
+        android:layout_width="139dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="500dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="112dp"
+        tools:ignore="MissingConstraints" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="168dp"
+        android:layout_marginBottom="400dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <RadioButton
+            android:id="@+id/male"
+            android:layout_width="77dp"
+            android:layout_height="match_parent"
+            android:text="Male" />
+
+        <RadioButton
+            android:id="@+id/female"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:text="Female" />
+
+    </RadioGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

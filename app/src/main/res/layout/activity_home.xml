@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="112dp"
+        android:layout_height="38dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="552dp"
+        android:text="Classic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="112dp"
+        android:layout_height="38dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="336dp"
+        android:text="Heels"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="112dp"
+        android:layout_height="38dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="124dp"
+        android:text="Boots"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/Classic"
+        android:layout_width="165dp"
+        android:layout_height="139dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginBottom="508dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/classic" />
+
+    <ImageView
+        android:id="@+id/Heels"
+        android:layout_width="165dp"
+        android:layout_height="139dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginBottom="296dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/heels" />
+
+    <ImageView
+        android:id="@+id/Boots"
+        android:layout_width="165dp"
+        android:layout_height="139dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginBottom="84dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/boots" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

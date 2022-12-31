@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Success/AndroidStudioProjects/Project/app/src/main/res/layout/activity_forget_password.xml" value="0.2" />
+        <entry key="..\:/Users/Success/AndroidStudioProjects/Project/app/src/main/res/layout/activity_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Success/AndroidStudioProjects/Project/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/Success/AndroidStudioProjects/Project/app/src/main/res/layout/activity_main.xml" value="0.1875" />
+        <entry key="..\:/Users/Success/AndroidStudioProjects/Project/app/src/main/res/layout/activity_main_page.xml" value="0.16875" />
+        <entry key="..\:/Users/Success/AndroidStudioProjects/Project/app/src/main/res/layout/activity_map.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Success/AndroidStudioProjects/Project/app/src/main/res/layout/activity_produ.xml" value="0.21" />
+        <entry key="..\:/Users/Success/AndroidStudioProjects/Project/app/src/main/res/layout/activity_product.xml" value="0.1515625" />
+        <entry key="..\:/Users/Success/AndroidStudioProjects/Project/app/src/main/res/layout/activity_products.xml" value="0.22" />
+        <entry key="..\:/Users/Success/AndroidStudioProjects/Project/app/src/main/res/layout/activity_qrcode.xml" value="0.18" />
+        <entry key="..\:/Users/Success/AndroidStudioProjects/Project/app/src/main/res/layout/activity_search.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/Success/AndroidStudioProjects/Project/app/src/main/res/layout/activity_shopping_cart.xml" value="0.24525316455696203" />
+        <entry key="..\:/Users/Success/AndroidStudioProjects/Project/app/src/main/res/layout/activity_show_order.xml" value="0.18" />
+        <entry key="..\:/Users/Success/AndroidStudioProjects/Project/app/src/main/res/layout/activity_sign_up.xml" value="0.33" />
+        <entry key="..\:/Users/Success/AndroidStudioProjects/Project/app/src/main/res/layout/activity_test.xml" value="0.2" />
+        <entry key="..\:/Users/Success/AndroidStudioProjects/Project/app/src/main/res/layout/cat_custom.xml" value="0.5" />
+        <entry key="..\:/Users/Success/AndroidStudioProjects/Project/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/Users/Success/AndroidStudioProjects/Project/app/src/main/res/layout/fragment_products.xml" value="0.25" />
+        <entry key="..\:/Users/Success/AndroidStudioProjects/Project/app/src/main/res/layout/fragment_search.xml" value="0.18931159420289856" />
+        <entry key="..\:/Users/Success/AndroidStudioProjects/Project/app/src/main/res/layout/fragment_shopping_cart.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/Success/AndroidStudioProjects/Project/app/src/main/res/layout/fragment_test.xml" value="0.11458333333333333" />
+        <entry key="..\:/Users/Success/AndroidStudioProjects/Project/app/src/main/res/layout/view_cart.xml" value="0.33" />
+        <entry key="..\:/Users/Success/AndroidStudioProjects/Project/app/src/main/res/menu/main_manu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Success/AndroidStudioProjects/Project/app/src/main/res/menu/pro_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Success/AndroidStudioProjects/Project/app/src/main/res/menu/se_sh.xml" value="0.18489583333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
